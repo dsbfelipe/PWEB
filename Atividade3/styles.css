@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    background-color: rgb(220, 231, 236);
+    color: #131313;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#categoria-tempo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+#categoria {
+    border: 2px solid #1e79e2;
+    border-radius: 5px;
+    padding: 3px 7px;
+    font-size: 10px;
+}
+
+#tempo {
+    color: #757575;
+}
+
+#header {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#titulo {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #1e79e2;
+}
+
+#titulo-artigo {
+    margin-top: -50px;
+    color: #000000;
+}
+
+#subtitulo {
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: -70px;
+    letter-spacing: -0.5px;
+    max-width: 80%;
+    color: #2c2c2c;
+
+}
+
+.maior {
+    font-size: 50px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #2c2c2c;
+}
+
+#foto-autor {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #2288fd;
+}
+
+#autor {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: -25px;
+}
+
+#nome-funcao {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+}
+
+#nome {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e79e2;
+}
+
+#funcao {
+    font-size: 12px;
+    margin-top: -10px;
+    color: #757575;
+}
+
+#header-hr {
+    margin-top: 40px;
+    width: 95%;
+    color: #1e79e2;
+}
+
+#direita-header {
+    max-width: 500px;
+    opacity: 0.9;
+}
+
+#esquerda-header {
+    max-width: 50%;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.section-hr {
+    color: #1e79e2;
+    margin: 50px 0;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #2288fd;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#framework-pic {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#criterios {
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: #6CBFFF;
+    color: aliceblue;
+    padding: 30PX 0;
+    margin: 0;
+}
+
+main p, main li {
+    color: #4d4d4d;
+}
+
+@media (min-width: 1920px) {
+    main {
+      font-size: 24px;
+      width: 40%;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    #framework-pic {
+        display: block;
+        margin: 50px auto;
+    }
+}
