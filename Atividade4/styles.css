@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+    background-color: #11141D;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+}
+
+#header-logo {
+    font-family: "Madimi One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: rgb(224, 224, 224);
+}
+
+.blue {
+    color: #008ce4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+    background-color: #1D212D;
+}
+
+#login-links {
+    display: flex;
+    gap: 40px;
+    color: #008ce4;
+    font-size: 16px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#login-links p {
+    width: 50px;
+}
+
+#nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.no-border-button {
+    width: 115px;
+    height: 40px;
+    background-color: #1D212D;
+    border: none;
+    color: rgb(212, 212, 212);
+    font-size: 16px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.different {
+    width: 115px;
+    height: 40px;
+    background-color: #2D3447;
+    color: rgb(212, 212, 212);
+    border-radius: 10px;
+    border: 1px solid #586177;
+    font-size: 16px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#search-bar {
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0F121B;
+    text-indent: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px ;
+    align-items: center;
+}
+
+::placeholder {
+    color: rgb(187, 187, 187);
+    
+}
+
+.hide {
+    background-color: #0F121B;
+    border: none;
+    color: rgb(184, 184, 184);
+}
+
+#search {
+    font-size: 16px;
+}
+
+#main-news {
+    background-image: url(images/resident-evil-4.webp);
+    padding-top: 360px;
+    background-size: cover;
+    width: 70%;
+    flex-grow: 1;
+    padding-left: 30px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+.pic-noticias-recentes {
+    width: 90px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 0 30px;
+    gap: 30px;
+}
+
+.indiv-recent-news {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#data-hero-news {
+    color: rgb(175, 175, 175);
+    font-size: 12px;
+    text-shadow: 1px 1px 4px black;
+}
+
+#titulo-hero-news {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#desc-hero-news {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#recent-news {
+    background: linear-gradient(0deg, #0087F2 30%, #0392F3 50%, #02AAF5 80%, #03B9F9 100%);
+    border: 1px solid #03B9F9;
+    border-radius: 25px;
+    padding: 20px 0px 10px 23px;
+    width: 400px;
+    color: white;
+}
+
+#recent-news p {
+    max-width: 90%;
+}
+
+#recent-news hr {
+    width: 93%;
+    margin: 10px 0px 15px 0px;
+    color: white;
+
+}
+
+.titulo-indiv-rec-news {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.desc-indiv-rec-news {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.recent-news-title {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#button-hero-news {
+    background: linear-gradient(0deg, #0087F2 30%, #0392F3 50%, #02AAF5 80%, #03B9F9 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 30px 30px ;
+    align-items: center;
+}
+
+.trending-header-title {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+}
+
+.trending-button {
+    color: #0087F2;
+    background-color: #0F121B;
+    border: none;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+
+.trending-img {
+    width: 415px;
+    border-radius: 15px;
+}
+
+.row-1-trending {
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: -10px;
+}
+
+.row-2-trending {
+    margin-top: 15px;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.trending-data {
+    color: #0087F2;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.trending-title {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.trending-desc {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.features-new-release-titulo {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+#features {
+    width: 50%;
+}
+
+#release {
+    width: 50%;
+}
+
+#features-new-release {
+    display: flex;
+    gap: 15px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 40px;
+}
+
+.feature-1-img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.features-container {
+    background: linear-gradient(0deg, #0087F2 30%, #0392F3 50%, #02AAF5 80%, #03B9F9 100%);
+    width: 100%;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.feature-1-lados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.feature-1-data {
+    font-size: 14px;
+}
+
+.feature-1-titulo {
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+}
+
+.feature-1-desc {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.lado-esquerdo {
+    width: 80%;
+}
+
+.lado-direito {
+    background-color: #0896f5;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.outros-foto {
+    width: 115px;
+    border-radius: 10px;
+}
+
+.foto-e-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.outros-hr {
+    margin-bottom: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.outros-hr-2 {
+    margin-bottom: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.data-outros {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.titulo-outros {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.outros-texto {
+    width: 70%;
+}
+
+.features-outros {
+    margin-bottom: 20px;
+}
+
+.menu-num {
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.next {
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+
+.botao-1  {
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+
+.botao-2  {
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+
+.botao-etc  {
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+    letter-spacing: -0.5px;
+}
+
+.azul {
+    background-color: #0087F2;
+}
+
+.main-release {
+    background-image: url(images/dragons-dogma-2.webp);
+    background-size: contain;
+    padding-top: 220px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.release-1-data {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.726);
+    text-shadow: 1px 1px 4px black;
+}
+
+.release-1-titulo {
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+.release-1-desc {
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.925);
+    text-shadow: 2px 2px 4px black;
+}
+
+
+.main-release-button {
+    background: linear-gradient(0deg, #0087F2 30%, #0392F3 50%, #02AAF5 80%, #03B9F9 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.img-rel {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.em-breve-rel {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.726);
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.titulo-rel {
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 26px;
+    color: white;
+
+}
+
+.date-rel {
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.925);
+
+}
+
+.release-container {
+    background-color: #2D3447;
+    border-radius: 40px;
+    padding-bottom: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.release-1-row {
+    display: flex;
+    gap: 15px;
+    margin: 30px 15px 0px 15px;
+}
+
+.cinza {
+    background-color: #2D3447
+}
+
+.menu-num-2 {
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+.analise-indiv {
+    display: flex;
+}
+
+.img-analise {
+    width: 60%;
+    border-radius: 25px;
+}
+
+.analise-1-row {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.analise-indiv {
+    background-color: #2D3447;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    border-radius: 25px;
+    padding: 12px 12px 12px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    flex-grow: 1;
+    width: 400px;
+}
+
+.analise-texto {
+    width: 100%;
+}
+
+.data-analise {
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 12px;
+}
+
+.titulo-analise {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 95%;
+}
+
+.autor-analise {
+    color: #0087F2;
+    margin-top: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    font-family: "Madimi One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-hr {
+    width: calc(100% - 60px);
+    margin: 60px auto 0px auto;
+}
+
+.copy {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

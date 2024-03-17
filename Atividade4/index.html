@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="dsbfelipe">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JornalGames! - Seu portal de notícias sobre videogame</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="header-logo">Jornal<span class="blue">Games!</span></p>
+        <div id="nav-links">
+            <button id="news-button" class="different">NOTÍCIAS</button>
+            <button id="reviews-button" class="no-border-button">ANÁLISES</button>
+            <button id="features-button" class="no-border-button">DESTAQUES</button>
+            <button id="release-button" class="no-border-button">LANÇAMENTOS</button>
+            <button id="magazine-button" class="no-border-button">GALERIAS</button>
+        </div>
+        <div id="search-bar">
+            <input type="text" name="pesquisa" placeholder="Pesquisar" class="hide" id="search">
+            <button class="hide" id="search-button">
+                <span class="material-symbols-outlined">
+                search
+                </span>
+            </button>
+        </div>
+        <div id="login-links">
+            <p>
+                Entrar
+            </p>
+            <p>
+                Cadastrar
+            </p>
+        </div>
+    </header>
+    <main>
+        <div id="hero">
+            <div id="main-news">
+                <p id="data-hero-news">13 de Março de 2024</p>
+                <p id="titulo-hero-news">Sucesso Consolidado</p>
+                <p id="desc-hero-news">Resident Evil 4 Remake atinge nova marca histórica de vendas</p>
+                <button id="button-hero-news">Leia Mais</button>
+            </div>
+            <div id="recent-news">
+                <p class="recent-news-title">NOTÍCIAS RECENTES</p>
+                <hr>
+                <div class="indiv-recent-news">
+                    <img class="pic-noticias-recentes" src="images/persona-3-reloaded.avif" alt="Persona 3 Reload illustration">
+                    <div>
+                        <p class="titulo-indiv-rec-news">Fãs de Persona 3 Reload ficam indignados com o valor do Passe de Expansão</p>
+                        <p class="desc-indiv-rec-news">Os jogadores do Persona 3 Reload recorreram ao Steam e redes sociais para expressar suas frustrações com o anúncio da Atlus.</p>
+                    </div>
+                </div>
+
+                <div class="indiv-recent-news">
+                    <img class="pic-noticias-recentes" src="images/diablo-4.webp" alt="Diablo IV illustration">
+                    <div>
+                        <p class="titulo-indiv-rec-news">Prestes a chegar ao Game Pass, Diablo 4 receberá suporte a ray tracing</p>
+                        <p class="desc-indiv-rec-news">Ainda no mês de março.</p>
+                    </div>
+                </div>
+                
+                <div class="indiv-recent-news">
+                    <img class="pic-noticias-recentes" src="images/final-fantasy-xvi.webp" alt="Persona 3 Reload illustration">
+                    <div>
+                        <p class="titulo-indiv-rec-news">Final Fantasy 16 para PC terá requisitos "um pouco altos", diz Naoki Yoshida</p>
+                        <p class="desc-indiv-rec-news">Naoki Yoshida também disse que uma demo deve sair antes do lançamento.</p>
+                    </div>
+                </div>
+
+                <div class="indiv-recent-news">
+                    <img class="pic-noticias-recentes" src="images/baldurs-gate-3.jpg" alt="Baldur's Gate 3 illustration">
+                    <div>
+                        <p class="titulo-indiv-rec-news">Baldur's Gate 3 tem uma falha no roteiro, mas poucos perceberam</p>
+                        <p class="desc-indiv-rec-news">Os Gith não são naturalmente bélicos e militarizados.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="trending-header">
+            <p class="trending-header-title">Em alta agora</p>
+            <button class="trending-button">Ver Todos ></button>
+        </div>
+
+        <div class="row-1-trending">
+            <div>
+                <img class="trending-img" src="images/genshin-impact.jpg" alt="">
+                <p class="trending-data">15 de Março de 2024</p>
+                <p class="trending-title">Parceria entre Genshin Impact e Discovery Channel em prol do meio ambiente acompanha documentário e recompensas dentro do jogo</p>
+                <p class="trending-desc">Personagens do RPG se juntam a celebridades para a campanha.</p>
+                <button class="trending-button">Leia Mais ></button>
+            </div>
+
+            <div>
+                <img class="trending-img" src="images/gta-vi.jpg" alt="">
+                <p class="trending-data">14 de Março de 2024</p>
+                <p class="trending-title">Por que GTA 6 precisa ser um sucesso estrondoso? Há muita coisa em jogo, e não apenas para a Rockstar e a Take-Two</p>
+                <p class="trending-desc">Jogo mais aguardado da nova geração também tem carrega responsabilidade de ser um fenômeno de vendas.</p>
+                <button class="trending-button">Leia Mais ></button>
+            </div>
+
+            <div>
+                <img class="trending-img" src="images/v-rising.webp" alt="">
+                <p class="trending-data">15 de Março de 2024</p>
+                <p class="trending-title">V Rising será oficialmente lançado; versão para PS5 chegará mais tarde</p>
+                <p class="trending-desc">A versão completa do jogo de vampiros está chegando.</p>
+                <button class="trending-button">Leia Mais ></button>
+            </div>
+        </div>
+
+        <div class="row-2-trending">
+            <div>
+                <img class="trending-img" src="images/star-wars.jpg" alt="">
+                <p class="trending-data">15 de Março de 2024</p>
+                <p class="trending-title">Para infortúnio dos fãs, Star Wars: Knights of The Old Republic está longe de ser lançado</p>
+                <p class="trending-desc">"Esse tipo de jogo precisa de muito amor e respeito".</p>
+                <button class="trending-button">Leia Mais ></button>
+            </div>
+
+            <div>
+                <img class="trending-img" src="images/hogwarts-legacy.webp" alt="">
+                <p class="trending-data">14 de Março de 2024</p>
+                <p class="trending-title">Vire um bruxo com esse super desconto de Hogwarts Legacy para o PlayStation 5!</p>
+                <p class="trending-desc">Jogo mais aguardado da nova geração também tem carrega responsabilidade de ser um fenômeno de vendas.</p>
+                <button class="trending-button">Leia Mais ></button>
+            </div>
+
+            <div>
+                <img class="trending-img" src="images/prince-of-persia.jpg" alt="">
+                <p class="trending-data">13 de Março de 2024</p>
+                <p class="trending-title">Ubisoft revela cronograma de conteúdos pós-lançamento de Prince of Persia: The Lost Crown</p>
+                <p class="trending-desc">Os desenvolvedores já tinham cantado a pedra em um vídeo de agradecimento, mas agora foi confirmado pela Ubisoft.</p>
+                <button class="trending-button">Leia Mais ></button>
+            </div>
+        </div>
+
+        <div id="features-new-release">
+            <div id="features">
+                <p class="features-new-release-titulo">Destaques</p>
+                <div class="features-container">
+                    <img class="feature-1-img" src="images/kingdom-hearts-4.png" alt="">
+                    <div class="feature-1-lados">
+                        <div class="lado-esquerdo">
+                            <p class="feature-1-data">14 de Março de 2024</p>
+                            <p class="feature-1-titulo">Próximo grande lançamento da Square Enix já está a caminho</p>
+                            <p class="feature-1-desc">Kingdom Hearts 4, Final Fantasy 7 ou outro grande lançamento?</p>
+                        </div>
+                        <button class="lado-direito">
+                            Leia Mais
+                        </button>
+                    </div>
+
+                    <div class="features-outros">
+                        <hr class="outros-hr">
+                        <div class="foto-e-texto">
+                            <img class="outros-foto" src="images/sonic-mania.webp" alt="">
+                            <div class="outros-texto">
+                                <p class="data-outros">10 de Março de 2024</p>
+                                <p class="titulo-outros">Todos os jogos de Sonic disponíveis no Nintendo Switch</p>
+                                <p class="desc-outros">Você já jogou todos eles?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features-outros">
+                        <hr class="outros-hr-2">
+                        <div class="foto-e-texto">
+                            <img class="outros-foto" src="images/minecraft.webp" alt="">
+                            <div class="outros-texto">
+                                <p class="data-outros">15 de Março de 2024</p>
+                                <p class="titulo-outros">Minecraft passa a ter serviço por assinatura mensal para conteúdos extra</p>
+                                <p class="desc-outros">Marketplace Pass já está disponível.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features-outros">
+                        <hr class="outros-hr-2">
+                        <div class="foto-e-texto">
+                            <img class="outros-foto" src="images/overwatch.jpg" alt="">
+                            <div class="outros-texto">
+                                <p class="data-outros">7 de Março de 2024</p>
+                                <p class="titulo-outros">Bang! Overwatch 2 anuncia parceria com anime clássico dos anos 90</p>
+                                <p class="desc-outros">3, 2, 1. Vamos lá.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-num">
+                        <button class="azul next">Next >></button>
+                        <button class="azul botao-1">1</button>
+                        <button class="azul botao-2">2</button>
+                        <button class="azul botao-etc">...</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="release">
+                <p class="features-new-release-titulo">Lançamentos</p>
+                <div class="release-container">
+
+                    <div class="main-release">
+                        <p class="release-1-data">Em breve</p>
+                        <p class="release-1-titulo">Dragon's Dogma II</p>
+                        <p class="release-1-desc">Lançamento em 22 de Março de 2024</p>
+                        <button class="main-release-button">Leia Mais</button>
+                    </div>
+
+                    <div class="release-1-row">
+                        <div class="release-sub">
+                            <img class="img-rel" src="images/alone-in-the-dark.jpg" alt="">
+                            <p class="em-breve-rel">Em breve</p>
+                            <p class="titulo-rel">Alone in the Dark</p>
+                            <p class="date-rel">Lançamento em 20 de Março de 2024</p>
+                        </div>
+                        <div class="release-sub">
+                            <img class="img-rel" src="images/rise-of-ronin.jpg" alt="">
+                            <p class="em-breve-rel">Em breve</p>
+                            <p class="titulo-rel">Rise of The Ronin</p>
+                            <p class="date-rel">Lançamento em 22 de Março de 2024</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="release-1-row">
+                        <div class="release-sub">
+                            <img class="img-rel" src="images/princess-peach-showtime.jpg" alt="">
+                            <p class="em-breve-rel">Em breve</p>
+                            <p class="titulo-rel">Princess Peach: Showtime!</p>
+                            <p class="date-rel">Lançamento em 22 de Março de 2024</p>
+                        </div>
+                        <div class="release-sub">
+                            <img class="img-rel" src="images/south-park.avif" alt="">
+                            <p class="em-breve-rel">Em breve</p>
+                            <p class="titulo-rel">South Park: Snow Day!</p>
+                            <p class="date-rel">Lançamento em 26 de Março de 2024</p>
+                        </div>
+                        
+                    </div>
+                    <div class="menu-num-2">
+                        <button class="cinza next">Next >></button>
+                        <button class="cinza botao-1">1</button>
+                        <button class="cinza botao-2">2</button>
+                        <button class="cinza botao-etc">...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trending-header">
+            <p class="trending-header-title">Análises</p>
+            <button class="trending-button">Ver Todos ></button>
+        </div>
+
+        <div class="analises">
+            <div class="analise-1-row">
+                <div class="analise-indiv">
+                    <img class="img-analise" src="images/helldivers-2.jpg" alt="">
+                    <div class="analise-texto">
+                        <p class="data-analise">5 de Março de 2024</p>
+                        <p class="titulo-analise">Helldivers 2 dá aula em jogos de serviço, mas não escapa da repetitividade | Review</p>
+                        <p class="autor-analise">by <span class="underline">Vitor Augusto Conceição</span></p>
+                    </div>
+                </div>
+                <div class="analise-indiv">
+                    <img class="img-analise" src="images/bandle-tale.jpg" alt="">
+                    <div class="analise-texto">
+                        <p class="data-analise">1 de Março de 2024</p>
+                        <p class="titulo-analise">Bandle Tale é um RPG de criação encantador, mas que pode testar a paciência de seus jogadores</p>
+                        <p class="autor-analise">by <span class="underline">Bia Coutinho</span></p>
+                    </div>
+                </div>
+                <div class="analise-indiv">
+                    <img class="img-analise" src="images/ffvii.jpg" alt="">
+                    <div class="analise-texto">
+                        <p class="data-analise">22 de Fevereiro de 2024</p>
+                        <p class="titulo-analise">Final Fantasy 7 Rebirth estabelece ambiente grandioso para gloriosa conclusão da saga | Review</p>
+                        <p class="autor-analise">by <span class="underline">Vika Rosa</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="analise-1-row">
+                <div class="analise-indiv">
+                    <img class="img-analise" src="images/skull-and-bones.jpg" alt="">
+                    <div class="analise-texto">
+                        <p class="data-analise">22 de Fevereiro de 2024</p>
+                        <p class="titulo-analise">Skull and Bones nos joga em alto mar e deixa a ver navios | Review</p>
+                        <p class="autor-analise">by <span class="underline">Samara Barboza</span></p>
+                    </div>
+                </div>
+                <div class="analise-indiv">
+                    <img class="img-analise" src="images/mario-vs-donkey-kong.jpg" alt="">
+                    <div class="analise-texto">
+                        <p class="data-analise">14 de Fevereiro de 2024</p>
+                        <p class="titulo-analise">Mario vs Donkey Kong é um desafio delicioso para testar suas habilidades em quebra-cabeças | Review</p>
+                        <p class="autor-analise">by <span class="underline">Bárbara Castro</span></p>
+                    </div>
+                </div>
+                <div class="analise-indiv">
+                    <img class="img-analise" src="images/silenthill.jpg" alt="">
+                    <div class="analise-texto">
+                        <p class="data-analise">6 de Fevereiro de 2024</p>
+                        <p class="titulo-analise">Silent Hill: The Short Message é curto, mas mostra que franquia está de volta em boa forma | Review</p>
+                        <p class="autor-analise">by <span class="underline">Vitor Augusto Conceição </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-hr">
+
+        <p class="footer-logo">Jornal<span class="blue">Games!</span></p>
+        <p class="copy">© 2024 dsbfelipe. Todos os direitos reservados.</p>
+    </main>
+</body>
+</html>
