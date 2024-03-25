@@ -1,0 +1,179 @@
+* {
+    overflow-y: hidden;
+}
+
+body {
+    /* diameter of the circle */
+    --d: 1.5px; 
+    
+    background : radial-gradient(
+      circle at 
+         var(--d) 
+         var(--d), 
+         
+      #7a7a7a46 calc(var(--d) - 1px), 
+      #0000 var(--d)
+    ) 
+    0 0 / 25px 25px;
+ }
+
+ header {
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(129, 129, 129);
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+.cor {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 5px;
+    border: 1.5px solid rgb(163, 163, 163);
+}
+
+.esquerda-legenda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    justify-content: flex-start;
+}
+
+.legenda {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 14px;
+    padding: 20px;
+    background-color: rgba(202, 202, 202, 0.192);
+    border-radius: 25px;
+    border: 1px solid rgba(184, 184, 184, 0.342);
+    color: rgba(59, 59, 59, 0.808);
+    margin-top: 30px;
+}
+
+.cor-detalhe {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.direita-legenda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#square {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    #square {
+        background-color: #0242ba;
+    }
+
+    h2::before {
+        content: "Blue";
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #square {
+        background-color: rgb(226, 12, 162);
+    }
+    h2::before {
+        content: "Pink";
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #square {
+        background-color: rgb(22, 221, 247);
+    }
+    h2::before {
+        content: "Cyan Blue";
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1080px) {
+    #square {
+        background-color: rgb(0, 0, 0);
+    }
+    h2::before {
+        content: "Black";
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1366px) {
+    #square {
+        background-color: rgb(156, 134, 218);
+    }
+    h2::before {
+        content: "Lilac";
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    #square {
+        background-color: rgb(89, 0, 255);  
+    }
+    h2::before {
+        content: "Purple";
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    #square {
+        background-color: rgb(11, 255, 113);
+    }
+    h2::before {
+        content: "Green";
+    }
+}
+
+.copy {
+    color: Black;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 40px;
+
+}
