@@ -41,7 +41,7 @@ Para essa atividade, usei como inspiração o design de Milos Bojkovic disponív
 <br>
 
 <details>
-<summary align="center">Screenshot do projeto</summary>
+<summary align="center" style="color:yellow;">Screenshot do projeto</summary>
 <br>
 
   ![Project's screenshot](Atividade3/screenshot.png)
@@ -69,7 +69,7 @@ Minha ideia foi de desenvolver uma página de notícias sobre games, para isso u
 <br>
 
 <details>
-<summary align="center">Screenshot do projeto</summary>
+<summary align="center" style="color:yellow;">Screenshot do projeto</summary>
 <br>
 
   ![Project's screenshot](Atividade4/screenshot.png)
