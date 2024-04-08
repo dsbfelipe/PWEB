@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh; /* Isso garante que a altura do corpo seja igual à altura da janela de visualização */
+}
+
+h1 {
+    color: #333;
+}
+
+.choices {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#resultado span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
