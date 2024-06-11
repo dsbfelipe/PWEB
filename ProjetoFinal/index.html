@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Categorias</h2>
+            <ul id="category-list">
+                <!-- Categorias serão adicionadas aqui -->
+            </ul>
+            <button id="add-category-btn">+ Criar Nova Categoria</button>
+        </aside>
+        <main class="content">
+            <div class="main-content">
+                <div class="category-header">
+                    <div class="category-info">
+                        <h2 id="category-title">Selecione uma Categoria</h2>
+                        <p id="category-description"></p>
+                    </div>
+                    <div class="category-actions">
+                        <button id="edit-category-btn" style="display: none;">Editar Categoria</button>
+                        <button id="delete-category-btn" style="display: none;">Excluir Categoria</button>
+                    </div>
+                </div>
+                <ul id="task-list"></ul>
+                <button id="add-task-btn">Adicionar Tarefa</button>
+            </div>
+            
+        </main>
+    </div>
+
+    <!-- Popup para criar/editar categoria -->
+    <div id="category-popup" class="popup">
+        <h2>Criar Nova Categoria</h2>
+        <label for="category-emoji">Emoji:</label>
+        <input type="text" id="category-emoji">
+        <label for="category-name">Nome da Categoria:</label>
+        <input type="text" id="category-name">
+        <label for="category-description">Descrição:</label>
+        <textarea id="category-description-input"></textarea>
+        <button id="cancel-category-btn">Cancelar</button>
+        <button id="save-category-btn">Salvar</button>
+    </div>
+
+    <!-- Popup para criar/editar tarefa -->
+    <div id="task-popup" class="popup">
+        <h2>Criar Nova Tarefa</h2>
+        <label for="task-name">Nome da Tarefa:</label>
+        <input type="text" id="task-name">
+        <label for="task-description">Descrição:</label>
+        <textarea id="task-description"></textarea>
+        <label for="task-deadline">Data Limite:</label>
+        <input type="date" id="task-deadline">
+        <label for="task-important">Importante:</label>
+        <input type="checkbox" id="task-important">
+        <button id="cancel-task-btn">Cancelar</button>
+        <button id="save-task-btn">Salvar</button>
+    </div>
+</body>
+</html>
